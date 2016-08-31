@@ -1,0 +1,7 @@
+            /*SSLContext sc = SSLContext.getInstance("TLSv1.2");
+            // Init the SSLContext with a TrustManager[] and SecureRandom()
+            TrustManagerFactory tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
+            tmf.init((KeyStore) null);
+            TrustManager[] trustManagers = tmf.getTrustManagers();
+            sc.init(null, trustManagers, new java.security.SecureRandom());
+            connection.setSSLSocketFactory(sc.getSocketFactory());*/
